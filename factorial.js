@@ -1,5 +1,9 @@
 function factorial(num) {
-  return 0;
+  let product = 1
+  for(i = num, num < i, i--) { 
+    return product = product * i
+  }
+  return product
 }
 
 module.exports = factorial;
